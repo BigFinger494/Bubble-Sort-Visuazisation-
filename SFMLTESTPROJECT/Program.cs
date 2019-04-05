@@ -26,7 +26,7 @@ namespace SFMLTESTPROJECT
           
             int X = 50;
             Font font = new Font(@"C:\Windows\Fonts\Arial.ttf");
-           
+            window.Closed += Window_Closed;
             void init()
             {
                 Copyright.Font = font;
